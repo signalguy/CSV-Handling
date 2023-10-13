@@ -37,3 +37,8 @@ print(avg)
 print(max)
 # print(data_list)
 
+print(data.condition)
+
+print(data[data.day == "Monday"])
+
+print(data[data.temp == data.temp.max()])
