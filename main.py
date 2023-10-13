@@ -28,5 +28,10 @@ for temp in data_list:
 
 avg = sum / idx
 print(avg)
+
+avg = 0
+
+avg = data["temp"].mean()
+print(avg)
 # print(data_list)
 
