@@ -32,6 +32,8 @@ print(avg)
 avg = 0
 
 avg = data["temp"].mean()
+max = data["temp"].max()
 print(avg)
+print(max)
 # print(data_list)
 
